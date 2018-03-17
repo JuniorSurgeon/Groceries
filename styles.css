@@ -1,8 +1,7 @@
-body {
-    font-family: 'Arvo';
-    font-size: 16px;
-    padding: 20px 100px 0px 100px;
-    background: #f3f3f3;
+@font-face {
+	font-family: 'Berkshire Swash', cursive;
+	src: url(https://fonts.google.com/);
+	font-weight: 400;
 }
 
 /* List */
@@ -11,14 +10,19 @@ ul {
     list-style: none;
 }
 
-li {
-    background: #fff;
+body {
+	background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/04/natural-tan-canvas-fabric-texture.jpg);
+}
+
+
+#li div {
+
     width: 500px;
     min-height: 30px;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 1em;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 
